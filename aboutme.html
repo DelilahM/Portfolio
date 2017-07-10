@@ -66,3 +66,134 @@ href="http://www.girlsinc.org">Visit Girls Inc. Home Page</a></p>
 
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin: 0;
+    font-family: 'Courier', sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+</style>
+</head>
+
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("http://3.bp.blogspot.com/-OohK3EXfVSM/U_PzhCHikOI/AAAAAAAAMI4/HZGF7vKa5AA/s1600/E-3624-STARDUST-HORSE-AUG-19-2014-MARCIA-BALDWIN-ORIG-OIL.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="bg"></div>
+
+</body>
+</html>
+
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About Me </a>
+    <a href="#">Organizations</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Welcome</span>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+<h2>About Me</h2>
+    <p>I am a proud Oaklander! I was raised and grew up in Oakland Chinatown. I go to Oakland Charter High School (OCHS), and Biology is one of my favorite classes! At OCHS, I am part of the Student Body Government and Key Club. I am passionate about the Oakland community, and advocate change for the better of Oakland. When I am not being productive, I enjoy playing video games for several hours.</p>
+    <img scr= url (https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/blue-night-of-st-johns-bridge-36-james-dunbar.jpg) style="width:304px;height:228px;"/>
+	</body>
+	</html>
+    <h2>Organizations</h2>
+    <p> Girls Inc of Alameda County. Girls Inc inspires all girls to be strong, smart, and bold. I am a proud HEART and ACT Leader of Girls Inc. As a HEART Leader, I am a resource for other women in the community to learn about their heath and reproductive system. As an ACT Leader, I strive to find resolutions to the issues in Oakland.
+	<p><a 
+href="http://www.girlsinc.org">Visit Girls Inc. Home Page</a></p>
+	<p> Asian Youth Services Committee (AYSC). The AYSC is somewhat similar to a community service organization. Within AYSC, I and the other members develop needed self-esteem and a sense of camaraderie and trust with other youth. The AYSC provides many activities and sponsors large events where we are taught to analyze, to organize, to write projections and budgets and to bring about a meaningful conclusion. We are taught how to delegate, to encourage others to participate and to have fun. We become skillful leaders.
+    <p><a href="https://www.asianyouthservicescommittee.org">Visit AYSC Home Page</a></p>
+    <img scr= url (https://static.wixstatic.com/media/3d8d34_b2961228a39c42659bf2f0f27b3d40ae~mv2.jpg/v1/fill/w_494,h_878,al_c,q_90,usm_0.66_1.00_0.01/3d8d34_b2961228a39c42659bf2f0f27b3d40ae~mv2.webp) style="width:304px;height:228px;"/>
+	  <h2>Projects</h2>
+      <h2>Contact</h2>
+
+</body>
+</html>
